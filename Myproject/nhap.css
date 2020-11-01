@@ -1,0 +1,27 @@
+img{
+    width: 100px;
+    height: 125px;
+    border-radius: 5%;
+    box-shadow: 8px 5px darkslategray;
+}
+#title{
+    text-align: center;
+    font-family: 'Sniglet', cursive;
+}
+dd{
+    font-style: italic;
+    color: darkmagenta;
+}
+dt{
+    
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+    
+}
+dt img:hover{
+    
+ 
+    transform: scale(1.5, 1.5);
+    
+
+
+}

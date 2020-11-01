@@ -1,0 +1,19 @@
+#film_list{
+    
+    transition: width 0.25s, height 0.25s, transform 0.25s;
+    
+}
+#film_list:hover{
+    
+    
+    transform: scale(1.25,1.25);
+
+
+}
+img{
+    border-radius: 5%;
+    box-shadow: 10px 5px black;
+}
+ul{
+    display: flex; flex-direction: row; ; margin:0 ; padding: 0%;
+}
